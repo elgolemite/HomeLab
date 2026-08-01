@@ -1,10 +1,15 @@
-# HomeLab Setup 
+# HomeLab Setup
 
-This is my Homelab Setup 
+This repository documents my cybersecurity homelab environment.
 
-The virtual tools that i use is VMWARE workstation pro 17
+## Virtualization Platform
 
-|Machines|Version|Hostname|ip address|Description|
-|Window server|Windows server2025|DC01|192.168.10.10|This is the domain server create user, assign group and policy.|
-|Window Client|Windows 11|CLIENT01|192.168.10.20|This act as a client machine|
-|Pfsense|Comunnity Edition version 2.8.1|pfsense|192.168.10.1|act as the firewall/DHCP server/Router|
+- VMware Workstation Pro 17
+
+## Machines
+
+| Machine | Version | Hostname | IP Address | Description |
+|---|---|---|---|---|
+| Windows Server | Windows Server 2025 | DC01 | 192.168.10.10 | Domain controller used to manage users, groups, DNS, and Group Policy |
+| Windows Client | Windows 11 | CLIENT01 | 192.168.10.20 | Client machine joined to the Active Directory domain |
+| pfSense | Community Edition 2.8.1 | pfSense | 192.168.10.1 | Firewall, DHCP server, default gateway, and router |
