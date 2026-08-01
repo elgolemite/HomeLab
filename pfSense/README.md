@@ -2,7 +2,7 @@
 
 ## pfSense DHCP Integration with Active Directory 
 
-Objective
+Objective :
 Configure pfSense to provide DHCP settings automatically to domain clients while using the Active Directory Domain Controller as the DNS server.
 
 |System|Role|Ip Address|
@@ -12,13 +12,13 @@ Configure pfSense to provide DHCP settings automatically to domain clients while
 |CLIENT01|Windows Domain Client|192.168.10.20|
 |Domain|Active Directory Domain|chopchicken.test|
 
-[screenshot]
+![screenshot](/../images/)
 
 pfSense now automatically provides IP, gateway, DNS, and domain settings to CLIENT01. Domain clients use DC01 for internal DNS resolution, while DC01 forwards external DNS queries. 
 
 ## Creating Firewall Aliases in pfSense
 
-Objective
+Objective :
 Create reusable aliases in pfSense to make firewall and NAT rules easier to read and manage.
 
 [screenshot]
