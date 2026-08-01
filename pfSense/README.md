@@ -36,6 +36,7 @@ The aliases were created successfully. They can now be reused across firewall an
 Create a firewall rules in LAN to block Internet access for CLIENT01
 
 ![screenshot](../images/lab3.png)
+
 DC01 can be reach but internet is blocked
 
 CLIENT01 may still resolve names such as google.com because its DNS server, DC01, is inside the LAN. However, the actual connection to Google's external IP will be rejected. 
