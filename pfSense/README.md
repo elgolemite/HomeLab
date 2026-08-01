@@ -12,7 +12,7 @@ Configure pfSense to provide DHCP settings automatically to domain clients while
 |CLIENT01|Windows Domain Client|192.168.10.20|
 |Domain|Active Directory Domain|chopchicken.test|
 
-![screenshot](/../images/lab1.png)
+![screenshot](/../../images/lab1.png)
 
 pfSense now automatically provides IP, gateway, DNS, and domain settings to CLIENT01. Domain clients use DC01 for internal DNS resolution, while DC01 forwards external DNS queries. 
 
