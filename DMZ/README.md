@@ -10,6 +10,7 @@ Ubuntu web server : 192.168.20.10
 pfsense DMZ gateway: 192.168.20.1
 
 ## Firewall Policy
+|--|--|
 |LAN -> DMZ web server| Allowed on TCP 80/443|
 |DMZ -> Internet| Allowed|
 |DMZ -> LAN| Blocked and logged|
