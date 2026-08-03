@@ -22,9 +22,17 @@ pfsense DMZ gateway: 192.168.20.1
 
 ## Result
 ![screenshot](../images/DMZ_firewall_rules.png)
+
+The pfSense DMZ firewall rules.
+
 ![screenshot](../images/DMZ-to-LAN-blocked.png)
 ![screenshot](../images/log-DMZ-blocked.png)
+
+The blocked DMZ-to-LAN firewall logs.
+
 ![screenshot](../images/nginx_page.png)
+
+The successful Nginx page and Test-NetConnection result.
 
 
 The testing confirmed that CLIENT01 could access the Nginx website, while Ubuntu could not access the internal LAN. This demonstrates network segmentation, routing, firewall rules, logging, and protection of internal systems.
