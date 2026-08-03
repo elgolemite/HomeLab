@@ -5,8 +5,11 @@ A DMZ (Demilitarized Zone) is a separate network used for public-facing systems 
 add another network adapter to pfsense configure DMZ.
 
 LAN : 192.168.10.0/24
+
 DMZ : 192.168.20.0/24
+
 Ubuntu web server : 192.168.20.10
+
 pfsense DMZ gateway: 192.168.20.1
 
 ## Firewall Policy
